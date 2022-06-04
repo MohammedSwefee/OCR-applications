@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ss"
+    tools:context="dev.edmt.androidcamerarecognitiontext.Reader.userinterface">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="100px">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="185dp"
+                    android:layout_height="50dp"
+                    android:text="Account number"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/account_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Last reading"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/last_reading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="131dp"
+                    android:layout_height="50dp"
+                    android:text="Date"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Current Reading"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/current_reading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Current rate"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/current_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:hint="00"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Arrears"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/arrears"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Total rate"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/total_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="24sp" />
+
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/mo"
+            android:layout_width="1dp"
+            android:layout_height="2dp"
+            android:text="Button"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+

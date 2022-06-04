@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dev.edmt.androidcamerarecognitiontext.car.carreader"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/cc">
+
+
+    <SurfaceView
+        android:id="@+id/surface_viewcar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:focusableInTouchMode="true" />
+
+    <TextView
+        android:id="@+id/text_viewcar"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/surface_view"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/read"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/readcar"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/surface_viewcar"
+        android:background="#87a3ae"
+        android:text="Read" />
+
+    <Button
+        android:id="@+id/checkcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#87a3ae"
+        android:text="check" />
+
+    <EditText
+        android:id="@+id/wwcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/readcar"
+        android:layout_alignEnd="@+id/text_viewcar"
+        android:layout_below="@+id/surface_viewcar"
+        android:layout_toEndOf="@+id/readcar"
+        android:background="#b9d1da"
+        android:ems="10" />
+
+</RelativeLayout>

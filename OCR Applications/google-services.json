@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1031416508548",
+    "firebase_url": "https://fees-reader.firebaseio.com",
+    "project_id": "fees-reader",
+    "storage_bucket": "fees-reader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031416508548:android:095f18384430f31a",
+        "android_client_info": {
+          "package_name": "dev.edmt.androidcamerarecognitiontext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031416508548-ah8o2gphugn83b2u0b9r4dg9umcmq1na.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.edmt.androidcamerarecognitiontext",
+            "certificate_hash": "951a15e616b8492ff6f77adda32d322085bda979"
+          }
+        },
+        {
+          "client_id": "1031416508548-19ig0fqr07d68fq9ef9gc9s37hcc2ppu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfmQjKcHLVc_xNeI4OMyiyBOUG-Ul0i5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031416508548-19ig0fqr07d68fq9ef9gc9s37hcc2ppu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

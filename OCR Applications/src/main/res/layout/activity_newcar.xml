@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cc"
+    tools:context="dev.edmt.androidcamerarecognitiontext.car.newcar">
+
+
+    <LinearLayout
+
+        android:id="@+id/new_car"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="446dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="100px">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Car number"
+
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="00000"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:text="owner name"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/owner_namee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jone Kiri"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="check Date"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/check_datee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="01/01/2001"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="color"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/car_colorr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="red"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:text="model"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/car_modell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="tiggo 2013"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="case"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/car_casee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="critical or normal"
+                    android:textSize="24sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="is wanted?"
+                    android:textSize="24sp" />
+
+
+
+                <EditText
+                    android:id="@+id/wantedd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="wanted or not"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/addcar"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="add" />
+        <Button
+            android:id="@+id/uploadcardata"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="edit current " />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
