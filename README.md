@@ -2,7 +2,7 @@
 OSR applications as bellow:
 
 1- Electricity, water and gas meter reading application using Real time cloud data
-In this project, I used the Kotlin language issued in 2007 after programming a special application that connects and communicates with a cloud database (cloud data) on a virtual server.
+In this project, I used the Kotlin language after programming a special application that connects and communicates with a cloud database (cloud data) on a virtual server.
 Objective / Solve the problem of managing customer subscription vouchers in electricity, water and gas distribution companies, where the process of reading the various meters and calculating costs without the need to review the collection office for homes or work sites, where the responsible employee can manage data outside the limits of space and time.
 This application will save a lot of money and time for companies, so what is used compared to the common methods.
 The requirements to do this project for the user are only a mobile phone connected to the Internet. It is possible to develop this system using smart meters without the need for normal user interaction.
